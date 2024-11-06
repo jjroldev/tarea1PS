@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
-#include <windows.h>
 #include "utils.h"
 
 int login(char* usuario);
@@ -12,7 +11,6 @@ const char *figuras[] = {
     "Cilindro", "Cilindro recto", "Esfera", "Cono circular recto"};
 
 int main() {
-    SetConsoleOutputCP(CP_UTF8);
     char usuario[50];
 
     while (1) {
