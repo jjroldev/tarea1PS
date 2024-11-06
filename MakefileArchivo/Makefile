@@ -18,9 +18,11 @@ datos.o: datos.c utils.h
 calculos.o: calculos.c utils.h
 	$(CC) $(CFLAGS) -c calculos.c
 
-# Generar archivos de ensamblador
 %.s: %.c
 	$(CC) -S $(CFLAGS) $< -o $@
+
+%.s: %.o
+	objdump -d $< > $@
 
 clean:
 	rm -f *.o *.s programa
