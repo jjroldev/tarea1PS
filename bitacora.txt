@@ -1,0 +1,9 @@
+
+2024/11/05: juanzapata - Ingreso fallido usuario/clave erróneo
+2024/11/05: juanzapata - Ingreso exitoso al sistema
+2024/11/05: juanzapata - triángulo
+2024/11/05: juanzapata - paralelogramo
+2024/11/05: juanzapata - Salida del sistema
+2024/11/05: justinrol - Ingreso exitoso al sistema
+2024/11/05: justinrol - paralelogramo
+2024/11/05: justinrol - Salida del sistema
